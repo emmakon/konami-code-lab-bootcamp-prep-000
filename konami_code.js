@@ -6,7 +6,7 @@ function init() {
   body.addEventListener('keypress', function(e) {
     const key = parseInt(e.detail || e.which);
 
- if (key === alphabet[index]) {
+ if (key === code[index]) {
    index++;
 
    if (index === alphabet.length) {
